@@ -17,7 +17,7 @@ define(['jquery', 'qlik'], function($, qlik) {
 
         $('#chat-log').append(`<div class="user-msg">${query}</div>`);
 
-        const resp = await fetch('http://localhost:3000/ai-query', {
+        const resp = await fetch('https://qlik-chatbot.onrender.com/ai-query', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
