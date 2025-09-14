@@ -1,0 +1,9 @@
+{
+  "name": "Qlik Chatbot Extension",
+  "type": "visualization",
+  "version": "1.0.0",
+  "description": "Chatbot assistant for Qlik Sense (client sends appId/objectIds, backend fetches data).",
+  "author": "You",
+  "preview": "preview.png",
+  "keywords": ["chatbot","qlik","ai"]
+}
